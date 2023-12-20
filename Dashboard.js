@@ -1,4 +1,4 @@
-function getUserById(UserId){
+function getUserById(UserId){ 
 var users = JSON.parse(localStorage.getItem('user')) || [];
 var foundUser = users.find(function(user){
     return user.id === UserId;
