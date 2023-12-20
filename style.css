@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html {
+  background-color: #E6E6FA;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #008080;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 40px 8px 10px 8px;
+  color: #cccccc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.errMsg {
+  max-width: 85%;
+  
+  color: red;
+  padding: 15px;
+  display: none;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(255, 163, 147);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#formContent {
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 50px;
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 3px solid #40E0D0;
+}
+
+input[type="submit"], button
+{
+  background-color: lightgreen ;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 0px 10px 0px;
+  width: 66%;
+  box-shadow: 2px 2px 4px gray;
+}
+
+input[type="submit"]:hover, button:hover
+{
+  background-color: lime;
+  box-shadow: 2px 2px 4px black;
+}
+
+
+input[type="email"], input[type="text"], input[type="password"] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 80%;
+  border: 2px solid #f6f6f6;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type="text"]:placeholder {
+  color: #cccccc;
+}
+
+.backBtn{
+  padding: 15px 0px;
+}
+.backBtn:hover{
+  color: red;
+}

@@ -1,0 +1,165 @@
+h1#welcomeName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  #formSub {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button, button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .backBtn{
+    background-color: red;
+  
+  }
+  .backBtn:hover{
+    background-color: #d9534f;
+  }
+  
+  #errMsg {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  #ticketList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: hidden;
+    padding: 20px 0;
+  }
+  
+  .tickets {
+    flex: 0 0 auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Ensure children stack vertically */
+  }
+  
+  .ticket-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-title {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .DeleteBtn {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .DeleteBtn:hover {
+    background-color: #d9534f;
+  }
+  
+  .ticket-info {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    padding: 15px;
+    flex-grow: 1; /* Allow content to expand */
+  }
+  
+  .ticket-info p {
+    margin: 5px 0;
+  }
+  
+  .ticket-info strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  #Country {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    overflow-x: hidden;
+    padding: 20px 0; 
+  }
+  
+  .Country {
+    flex: 0 0 auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

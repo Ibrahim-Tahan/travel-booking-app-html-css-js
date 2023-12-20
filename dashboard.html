@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventureAisle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="./dashboardSyle.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <h1 id="welcomeName">
+    </h1>
+    
+        
+<form id="formSub">
+    <h3>Book your Flight Now: </h3>
+    <div>
+        <label> From: </label>
+        <select id="MyData">
+            <option value=""></option>
+        </select>
+    </div>
+    <div>
+        <label> To: </label>
+        <select id="MyData2">
+            <option value=""></option>
+        </select>
+    </div>
+    <div>
+        <label>Enter Number Of Days</label>
+        <input type="number" id="numDays">
+    </div>
+    <div>
+        <label>Enter Number of Passenger</label>
+        <input type="number" id="numPers">
+    </div>
+    <button type="submit">Submit</button>
+    <div id="errMsg"> </div>
+    
+</form>
+
+<div id="ticketList">
+
+</div>
+
+<h1>Here are the most populare Destinations right now: </h1>
+    
+
+    <div id="Country">
+    </div>
+    <a href="./index.html" style="text-decoration: none;">
+        <button class="backBtn">Back</button>
+    </a>    
+
+
+    <script src="./Dashboard.js"></script>
+</body>
+</html>

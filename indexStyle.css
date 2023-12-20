@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .title{
+    color: white;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 15px;
+    display: inline;
+}
+  nav ul li:hover{
+    background-color: yellowgreen;
+} 
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+.section {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+background-position: center;
+}
+  
+.overlay {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    left: 40%;
+    transform: translateX(-50%);
+  }
+  
+  .overlay h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .overlay p {
+    font-size: 1.2em;
+  }
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  contact-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+  }
+  
+  .social-links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  #home {
+    background-image: url('https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}   
+
+#about {
+    background-image: url('https://images.pexels.com/photos/316776/pexels-photo-316776.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+#dashboard {
+    background-image: url('https://images.pexels.com/photos/1252500/pexels-photo-1252500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');}
+  
+#contact {
+    background-image: url('https://images.pexels.com/photos/3243090/pexels-photo-3243090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+  
